@@ -1,9 +1,9 @@
-# feed-focus-backend
+# headliner-backend
 A modular backend for a modern news aggregation platform.
 
 ## Repository Contents
 This repository contains:  
-- **feed-focus-backend**: Spring Boot backend (Java, MongoDB) for user management, RSS feed fetching, article storage, and bookmarks.  
+- **headliner-backend**: Spring Boot backend (Java, MongoDB) for user management, RSS feed fetching, article storage, and bookmarks.  
 
 ## Tech Stack
 - Java 17+, Spring Boot 3.x  
@@ -16,8 +16,8 @@ This repository contains:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/mohanseetha/feed-focus.git
-cd feed-focus-backend
+git clone https://github.com/Sujal-781/Headliner.git
+cd headliner-backend
 ```
 
 ### 2. Configure MongoDB
