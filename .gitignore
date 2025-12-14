@@ -1,0 +1,34 @@
+.idea/
+.DS_Store
+.vscode/
+
+# ==========================
+# React Frontend (feed-focus-frontend)
+# ==========================
+/feed-focus-frontend/node_modules/
+/feed-focus-frontend/dist/
+/feed-focus-frontend/build/
+/feed-focus-frontend/coverage/
+/feed-focus-frontend/.env
+/feed-focus-frontend/.env.local
+/feed-focus-frontend/.env.development
+/feed-focus-frontend/.env.production
+/feed-focus-frontend/.env.test
+/feed-focus-frontend/.gitignore
+/feed-focus-frontend/package-lock.json
+
+# ==========================
+# Spring Boot Backend (feed-focus-backend)
+# ==========================
+/feed-focus-backend/.idea/
+/feed-focus-backend/target/
+/feed-focus-backend/.classpath
+/feed-focus-backend/.project
+/feed-focus-backend/.env
+/feed-focus-backend/.env.local
+/feed-focus-backend/.mvn/
+/feed-focus-backend/build/
+/feed-focus-backend/mvnw
+/feed-focus-backend/mvnw.cmd
+/feed-focus-backend/.gitignore
+/feed-focus-backend/.gitattributes
