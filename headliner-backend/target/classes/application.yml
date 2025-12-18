@@ -6,8 +6,8 @@ spring:
     mongodb:
       uri: ${MONGO_URI}
 
-server:
-  port: ${PORT:8080}
+    redis:
+      url: redis://localhost:6379
 
 frontend:
   url: ${FRONTEND_URL}
