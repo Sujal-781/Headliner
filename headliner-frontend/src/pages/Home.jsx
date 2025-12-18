@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Box, Chip, Container } from "@mui/material";
 import ArticleList from "../components/ArticleList";
+import Snowfall from "react-snowfall";
+
 
 const topicsList = [
   "All",
@@ -27,6 +29,8 @@ const Home = () => {
   const [selectedTopic, setSelectedTopic] = useState("All");
 
   return (
+  <>
+    <Snowfall color="#82C3D9" />
     <Container maxWidth="lg">
       <Box sx={{ mt: 4 }}>
         <Box
@@ -58,10 +62,13 @@ const Home = () => {
             />
           ))}
         </Box>
+
         <ArticleList props={selectedTopic} />
       </Box>
     </Container>
-  );
+  </>
+);
+
 };
 
 export default Home;
