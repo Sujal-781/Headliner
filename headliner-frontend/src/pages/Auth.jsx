@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Snowfall from "react-snowfall";
 import {
   Box,
   TextField,
@@ -131,6 +132,8 @@ const Auth = () => {
   };
 
   return (
+    <>
+    <Snowfall color="#82C3D9" />
     <Box
       sx={{
         minHeight: "100vh",
@@ -381,6 +384,7 @@ const Auth = () => {
         </Snackbar>
       </Paper>
     </Box>
+    </>
   );
 };
 
