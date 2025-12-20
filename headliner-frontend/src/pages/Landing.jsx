@@ -16,6 +16,7 @@ const Landing = () => {
     <Box
       sx={{
         minHeight: "100vh",
+        minWidth: "85vw",
         background: (theme) =>
           theme.palette.mode === "dark"
             ? "linear-gradient(180deg, #0F1020 0%, #1B1D36 60%)"
